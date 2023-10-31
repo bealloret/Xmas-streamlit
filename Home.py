@@ -16,7 +16,7 @@ for i in range(1, total_days + 1):
     elif i == today:
         st.write(f"🎁 Day {i}: It's today! Click to open your surprise!")
         day_number = i
-        url = "https://youtu.be/__ebFZ4HxEk?si=A2PmLrAB1NfFl2nn"
+        url = "https://youtu.be/mcUza_wWCfA?si=VmzTHzDU5eVuQa5E"
         message = f"Day {day_number} of the month: {url}"
         img = qrcode.make(message)
         st.image(img, use_column_width=True)
